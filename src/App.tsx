@@ -21,7 +21,7 @@ import {
   Zip,
 } from "./styles";
 import Logo from "./assets/Logo.svg";
-import Visa from './assets/Visa.svg'
+import Visa from "./assets/Visa.svg";
 
 const App = () => {
   const cardNumber = "1232222344321732";
@@ -64,11 +64,7 @@ const App = () => {
       </TitleBody>
       <Card>
         <CardHeader>
-          <img
-            src={Logo}
-            alt="Benepass logo"
-            style={{ height: "32px", width: "121px" }}
-          />
+          <img src={Logo} alt="Benepass logo" />
           <Tag>Virtual</Tag>
         </CardHeader>
         <CardNumber>
@@ -97,11 +93,7 @@ const App = () => {
         </CardDataContainer>
         <CardFooter>
           <Zip>ZIP 66062</Zip>
-          <img
-            src={Visa}
-            alt="Visa logo"
-            style={{ height: "18.45px", width: "53.68px" }}
-          />
+          <img src={Visa} alt="Visa logo" />
         </CardFooter>
       </Card>
       <CheckboxContainer>

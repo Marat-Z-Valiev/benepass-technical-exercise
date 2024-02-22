@@ -7,6 +7,10 @@ export const Body = styled.div`
   align-items: flex-start;
   gap: 0.5rem;
   padding: 2rem;
+
+  @media (max-width: 600px) {
+    padding: 0;
+  }
 `;
 
 export const TitleBody = styled.div`
@@ -17,12 +21,12 @@ export const TitleBody = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: 500;
 `;
 
 export const Subtitle = styled.div`
-  font-size: 20px;
+  font-size: 1rem;
 `;
 
 export const Card = styled.div`
@@ -59,7 +63,7 @@ export const CardNumber = styled.div`
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
-  font-size: 1.8rem;
+  font-size: 26px;
 `;
 
 export const HiddenNumber = styled.span`
